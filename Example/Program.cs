@@ -10,21 +10,11 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            //hello
-            Console.WriteLine("Hello world");
-
-            //string
-            string initial = "Fullstac Developer";
-            Console.WriteLine(initial);
-
-            //int
-            int A = 5;
-            int B = 5 + A;
-            Console.WriteLine(B);
-
-            //bool
-            bool keadaan = false;
-            Console.WriteLine(keadaan);
+            //string input
+            string nama;
+            Console.WriteLine("Siapa namamu?");
+            nama = Console.ReadLine();
+            Console.WriteLine("Nama saya adalah: "+ nama);
         }
     }
 }
